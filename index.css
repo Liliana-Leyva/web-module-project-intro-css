@@ -1,0 +1,176 @@
+    
+
+ul{
+    position: relative;
+    top: 0;
+    width: 100%;
+    color:white;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 6%;
+    border-radius: .5rem;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    word-break: break-all;
+}
+
+a:hover{
+    color:gray;
+}
+
+ul li:nth-child(1){
+    background-color: #FF764E;
+    
+}
+
+ul li:nth-child(2){
+    background-color: #5ED3EB;
+}
+
+ul li:nth-child(3){
+    background-color:#FFCD69;
+}
+
+
+header{
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+
+.header_text {
+    float: right;
+    margin-left: .5%;
+    padding: 1%;
+    position: right;
+
+}
+
+
+
+
+h1{ 
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.section1 span{
+    display: inline-block;
+    
+}
+
+.headerpicture{
+    border-radius: 100%;
+    width: 300px;
+    height: auto;
+    padding: 1em 5em 1em;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.headerpicture:hover{
+    border-radius: 100%;
+    width: 500px;
+    height: auto;
+    padding: 1em 5em 1em;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.section2{
+
+    background-color: #DDB9A3;
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+}
+
+.section2 p{ 
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-family: Roboto Mono;
+    font-size: 1.4em;
+
+}
+
+footer{
+    padding: 3.2em;
+    background-color: #F9E7DC;
+}
+
+.footerpicture{
+    width: 89em;
+    height: 300px;
+   
+}
+
+.section3{
+    text-align: center;
+}
+
+.section3  p{
+    word-break: break-all;
+    font-family: 'Roboto Mono', monospace;
+}
+.section3 img{
+    float: center;
+    width: 10%;
+    height: auto;
+
+}
+
+.section3 img:hover{
+    float: center;
+    width: 20%;
+    height: auto;
+
+}
+
+.section4{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.section4 img{
+    width: 10%;
+    height: auto;
+}
+
+
+
+
