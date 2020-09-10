@@ -15,7 +15,7 @@ li{
     display: inline;
     text-decoration: none;
     padding: 1rem;
-    margin: 7%;
+    margin: 6%;
     border-radius: .5rem;
     font-size: 2em;
     text-align: center;
@@ -25,6 +25,10 @@ li{
 a{
     text-decoration: none;
     word-break: break-all;
+}
+
+a:hover{
+    color:gray;
 }
 
 ul li:nth-child(1){
@@ -50,7 +54,7 @@ header{
 
 .header_text {
     float: right;
-    margin-left: 1em;
+    margin-left: .5%;
     padding: 1%;
     position: right;
 
@@ -60,21 +64,21 @@ header{
 
 
 h1{ 
-    font-size: 5em;
+    font-size: 3.5em;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
 }
 
 h2{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Roboto Mono', monospace;
 
 }
 
 h3{
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -88,6 +92,16 @@ h3{
 .headerpicture{
     border-radius: 100%;
     width: 300px;
+    height: auto;
+    padding: 1em 5em 1em;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.headerpicture:hover{
+    border-radius: 100%;
+    width: 500px;
     height: auto;
     padding: 1em 5em 1em;
     margin-right: 15px;
@@ -132,12 +146,29 @@ footer{
 
 .section3  p{
     word-break: break-all;
+    font-family: 'Roboto Mono', monospace;
 }
 .section3 img{
     float: center;
     width: 10%;
     height: auto;
 
+}
+
+.section3 img:hover{
+    float: center;
+    width: 20%;
+    height: auto;
+
+}
+
+.section4{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.section4 img{
+    width: 10%;
+    height: auto;
 }
 
 
